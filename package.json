@@ -6,12 +6,13 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "build": "npm install --force"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
